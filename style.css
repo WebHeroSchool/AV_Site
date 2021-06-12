@@ -1,9 +1,24 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  padding: 40px 0;
+  width: 190px;
+  height: 35px;
+  border: dashed 1px red;
+  background: url('img/logo.svg');
+}
 .main-content__title {
   text-align:center;
   color:#0000FF;
   font-family:Roboto;
   font-size: 20pх;
 }
+/*.logo{
+ padding: 40px 0;
+ font-family: pt_serif,arial,helvetica,sans-serif; 
+}*/
 .logo, .menu{
   display: inline-block;
   border:dashed 1px red ;
